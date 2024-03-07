@@ -1,0 +1,14 @@
+version: '3'
+services:
+  devcontainer:
+    image: docker.io/devbfvio/angular-devcontainer:17.2.3
+    volumes:
+      - ../..:/workspaces:cached
+    command: sleep infinity
+  ngserve:
+    image: docker.io/devbfvio/angular-devcontainer:17.2.3
+    volumes:
+      - ../..:/workspaces:cached
+    command: cd devcontainer-app && ng serve --host
+    ports:
+      - "4200:4200"

@@ -3,13 +3,13 @@
 {
 	"name": "Angular Dev Containers PoC",
 	// Docker compose
-	//"dockerComposeFile": "docker-compose.yaml",
-	//"service": "devcontainer",
+	"dockerComposeFile": "docker-compose.yaml",
+	"service": "devcontainer",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	//
 	// Docker only
-	"image": "docker.io/devbfvio/angular-devcontainer:17.2.3",
+	// "image": "docker.io/devbfvio/angular-devcontainer:17.2.3",
 	// "build": {
     //     // Path is relative to the devcontainer.json file.
     //     "dockerfile": "Dockerfile"
@@ -38,7 +38,7 @@
 		
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [ 3099 ],
+	"forwardPorts": [ 4200 ],
 
 	"features": {
 		"ghcr.io/devcontainers/features/git:1": {}
