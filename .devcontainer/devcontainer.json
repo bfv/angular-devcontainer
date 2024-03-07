@@ -9,12 +9,12 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	//
 	// Docker only
-	// "image": "docker.io/devbfvio/openedge-devcontainer:12.8.0-rc1",
-	"build": {
-        // Path is relative to the devcontainer.json file.
-        "dockerfile": "Dockerfile"
+	"image": "docker.io/devbfvio/angular-devcontainer:17.2.3",
+	// "build": {
+    //     // Path is relative to the devcontainer.json file.
+    //     "dockerfile": "Dockerfile"
 		
-    },
+    // },
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
